@@ -24,7 +24,7 @@ header('location:user');
 else
 {
 
-$err="<font color='red'>Invalid login details</font>";
+$err="<font color='red'>Login Inválido</font>";
 
 }
 }
@@ -38,7 +38,7 @@ $err="<font color='red'>Invalid login details</font>";
 <form method="post">
 	<div class="row">
 		<div class="col-sm-4"></div>
-		<div class="col-sm-4"><h2>Login Form</h2></div>
+		<div class="col-sm-4"><h2>Formulário de login</h2></div>
 	</div>
 	
 	<div class="row">
@@ -49,13 +49,13 @@ $err="<font color='red'>Invalid login details</font>";
 	
 	
 	<div class="row" style="margin-top:10px">
-		<div class="col-sm-4">Enter YOur Email</div>
+		<div class="col-sm-4">Email</div>
 		<div class="col-sm-5">
 		<input type="email" name="e" class="form-control"/></div>
 	</div>
 	
 	<div class="row" style="margin-top:10px">
-		<div class="col-sm-4">Enter YOur Password</div>
+		<div class="col-sm-4">Senha</div>
 		<div class="col-sm-5">
 		<input type="password" name="p" class="form-control"/></div>
 	</div>

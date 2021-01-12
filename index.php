@@ -11,7 +11,7 @@ session_start();
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-	<title>Online feedback System</title>
+	<title>Clinica Modula Dor - Feedback</title>
 	
 	<!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -32,12 +32,12 @@ session_start();
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
+                    <span class="sr-only">Ligar Navegação</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.php" style="color:#FFFFFF">Online feedback System</a>
+                <a class="navbar-brand" href="index.php" style="color:#FFFFFF">Sistema de feedback Online</a>
 				
 				
             </div>
@@ -46,11 +46,11 @@ session_start();
                 <ul class="nav navbar-nav navbar-right">
                     
 					 <li style="color:#FFFFFF">
-                        <a style="color:#FFFFFF" href="index.php"><i class="fa fa-home fa-fw"></i>Home</a>
+                        <a style="color:#FFFFFF" href="index.php"><i class="fa fa-home fa-fw"></i>Inicio</a>
                     </li>
 					
 					<li style="color:#FFFFFF">
-                        <a style="color:#FFFFFF" href="index.php?info=about"><i class="fa fa-home fa-fw"></i>About</a>
+                        <a style="color:#FFFFFF" href="index.php?info=about"><i class="fa fa-home fa-fw"></i>Sobre</a>
                     </li>
 					
 					<li><a style="color:#FFFFFF" href="index.php?info=registration"><i class="fa fa-sign-out fa-fw"></i>Registration</a></li>
