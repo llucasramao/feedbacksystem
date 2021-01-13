@@ -48,13 +48,13 @@ $err="<font color='red'>Invalid login details</font>";
 	
 	
 	<div class="row" style="margin-top:10px">
-		<div class="col-sm-4">Enter YOur Email</div>
+		<div class="col-sm-4">Email:</div>
 		<div class="col-sm-5">
 		<input type="email" name="e" class="form-control"/></div>
 	</div>
 	
 	<div class="row" style="margin-top:10px">
-		<div class="col-sm-4">Enter YOur Password</div>
+		<div class="col-sm-4">Senha:</div>
 		<div class="col-sm-5">
 		<input type="password" name="p" class="form-control"/></div>
 	</div>

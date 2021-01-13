@@ -36,7 +36,7 @@ mkdir("images/$e");
 move_uploaded_file($_FILES['img']['tmp_name'],"images/$e/".$_FILES['img']['name']);
 
 
-$err="<font color='blue'><h3 align='center'>Registration successfull !!<h3></font>";
+$err="<font color='blue'><h3 align='center'>Usuário Registrado!<h3></font>";
 
 }
 }
@@ -58,21 +58,21 @@ $err="<font color='blue'><h3 align='center'>Registration successfull !!<h3></fon
 	</Tr>
 				
 				<tr>
-					<td>Enter Your name</td>
+					<td>Nome</td>
 					<Td><input  type="text" name="n" class="form-control" required/></td>
 				</tr>
 				<tr>
-					<td>Enter Your email </td>
+					<td>Email</td>
 					<Td><input type="email" name="e" class="form-control" required/></td>
 				</tr>
 				
 				<tr>
-					<td>Enter Your Password </td>
+					<td>Senha</td>
 					<Td><input type="password" name="p" class="form-control" required/></td>
 				</tr>
 				
 				<tr>
-					<td>Enter Your Mobile </td>
+					<td>Telefone</td>
 					<Td><input type="text" name="mob" class="form-control" required/></td>
 				</tr>
 				

@@ -1,3 +1,3 @@
 <?php
-$conn=mysqli_connect("localhost","root","","feedback_system")or die(mysqli_error());
+$conn=mysqli_connect("localhost","mysql","S3c_Mysql","feedbacksys")or die(mysqli_error());
 ?>
