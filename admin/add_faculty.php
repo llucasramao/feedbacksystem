@@ -37,7 +37,7 @@ $q=mysqli_query($conn,"select * from faculty where email='$email'");
     $headers = "From:".$from;
     mail($email,$subject,$message,$headers);
 		
-	$err="<font color='green'>New Faculty Successfully Added.</font>";
+	$err="<font color='green'>Nova doença criada com sucesso!</font>";
 	}
 	}
 }	
@@ -45,7 +45,7 @@ $q=mysqli_query($conn,"select * from faculty where email='$email'");
 ?>
 
 
-<h1 class="page-header">Add Faculty</h1>
+<h1 class="page-header">Adicionar Doença</h1>
 <div class="col-lg-8" style="margin:15px;">
 	<form method="post">
 	
@@ -57,42 +57,42 @@ $q=mysqli_query($conn,"select * from faculty where email='$email'");
 	
 	<div class="control-group form-group">
     	<div class="controls">
-        	<label>Name:</label>
+        	<label>Nome:</label>
             	<input type="text" value="<?php echo @$name;?>" name="name" class="form-control" required>
         </div>
    	</div>
 	
 	<div class="control-group form-group">
     	<div class="controls">
-        	<label>Designation:</label>
+        	<label>Sintomas:</label>
             	<input type="text" value="<?php echo @$Designation;?>" name="Designation" class="form-control" required>
         </div>
    	</div>
  	
 	<div class="control-group form-group">
     	<div class="controls">
-        	<label>Email :</label>
+        	<label>x :</label>
             	<input type="email" value="<?php echo @$email;?>"  name="email" class="form-control" required>
         </div>
     </div>
 	
 	<div class="control-group form-group">
     	<div class="controls">
-        	<label>Password :</label>
+        	<label>x :</label>
             	<input type="password" value="<?php echo @$pass;?>"  name="pass" class="form-control" required>
         </div>
     </div>
 	
 	<div class="control-group form-group">
     	<div class="controls">
-        	<label>Programme:</label>
+        	<label>x:</label>
   <input type="text"  name="prg" value="<?php echo @$prg;?>" class="form-control" required>
         </div>
     </div>
 	
 	<div class="control-group form-group">
     	<div class="controls">
-        	<label>Semester</label>
+        	<label>Médico</label>
   <select name="sem" class="form-control" required>
 					
 					<option>i</option>
@@ -109,7 +109,7 @@ $q=mysqli_query($conn,"select * from faculty where email='$email'");
                   
 	<div class="control-group form-group">
     	<div class="controls">
-        	<label>Mobile Number:</label>
+        	<label>x:</label>
             	<input type="number" id="mob" value="<?php echo @$mob;?>" class="form-control" maxlength="10" name="mob"  required>
         </div>
   	</div>

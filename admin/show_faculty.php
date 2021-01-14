@@ -14,15 +14,15 @@ function deletes(id)
 	echo "<table class='table table-responsive table-bordered table-striped table-hover' style=margin:15px;>";
 	echo "<tr>";
 	
-	echo "<th>S.No</th>";
-	echo "<th>Name</th>";
-	echo "<th>Designation</th>";
-	echo "<th>Programme</th>";
-	echo "<th>Semester</th>";
-	echo "<th>User Name</th>";	
-	echo "<th>Email</th>";
-	echo "<th>Mobile</th>";
-	echo "<th>Password</th>";
+	echo "<th>N°</th>";
+	echo "<th>Nome</th>";
+	echo "<th>Sintomas</th>";
+	echo "<th>X</th>";
+	echo "<th>Médico</th>";
+	echo "<th>X</th>";	
+	echo "<th>X</th>";
+	echo "<th>X</th>";
+	echo "<th>X</th>";
 	echo "<th>Update</th>";
 	echo "<th>Delete</th>";
 	echo "<th>Status</th>";

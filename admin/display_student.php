@@ -15,12 +15,12 @@ function deletes(id)
 	echo "<table class='table table-responsive table-bordered table-striped table-hover' style=margin:15px;>";
 	echo "<tr class='success'>";
 	
-	echo "<th>S.No</th>";
-	echo "<th>Name</th>";
-	echo "<th>Email</th>";
-	echo "<th>Mobile</th>";
-	echo "<th>Programme</th>";
-	echo "<th>Semester</th>";
+	echo "<th>N°</th>";
+	echo "<th>Nome</th>";
+	echo "<th>X</th>";
+	echo "<th>X</th>";
+	echo "<th>X</th>";
+	echo "<th>Semestre</th>";
 	echo "<th>Regid Id</th>";
 	echo "<th>Delete</th>";
 	echo "</tr>";

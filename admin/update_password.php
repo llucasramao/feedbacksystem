@@ -32,17 +32,17 @@ if(isset($update_password))
 </tr>
 	
 <tr>
-	<th height="87">Old Password:  
+	<th height="87">Senha Antiga:  
     <input type="password" name="op" value="" placeholder="enter your old password" class="form-control" required/></th>
 </tr>
 	
 <tr>
-	<th height="93">New Password:
+	<th height="93">Nova Senha:
     <input type="password" name="np" value="" placeholder="enter your new password" class="form-control"  required/><br /></th>
 </tr>
  
 <tr>
-	<th height="87">Confirm Password:
+	<th height="87">Confirme Senha:
     <input type="password" name="cp" value=""  placeholder="re-enter your new password" class="form-control" required/><br /></th>
 </tr>
 <tr>

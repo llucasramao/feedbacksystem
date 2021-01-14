@@ -19,7 +19,7 @@ include('../dbconfig.php');
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Admin Dashboard</title>
+    <title>Modula Dor | Feedback | Admin</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="../css/bootstrap.min.css" rel="stylesheet">
@@ -57,7 +57,7 @@ include('../dbconfig.php');
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="dashboard.php">Faculty Feedback System</a>
+                <a class="navbar-brand" href="dashboard.php">Modula Dor | Feedback</a>
             </div>
             <!-- /.navbar-header -->
 
@@ -69,10 +69,10 @@ include('../dbconfig.php');
                     </a>
                     <ul class="dropdown-menu dropdown-user">
                         
-                        <li><a href="dashboard.php?info=update_password"><i class="fa fa-gear fa-fw"></i>Change Password</a>
+                        <li><a href="dashboard.php?info=update_password"><i class="fa fa-gear fa-fw"></i>Mudar Senha</a>
                         </li>
                         <li class="divider"></li>
-                        <li><a href="logout.php"><i class="fa fa-sign-out fa-fw"></i> Logout</a>
+                        <li><a href="logout.php"><i class="fa fa-sign-out fa-fw"></i> Sair</a>
                         </li>
                     </ul>
                     <!-- /.dropdown-user -->
@@ -85,17 +85,17 @@ include('../dbconfig.php');
                 <div class="sidebar-nav navbar-collapse">
                     <ul class="nav" id="side-menu">
                         <li>
-                            <a href="dashboard.php"><i class="fa fa-dashboard fa-fw"></i> Dashboard</a>
+                            <a href="dashboard.php"><i class="fa fa-dashboard fa-fw"></i> Início</a>
                         </li>
                         
 						<li>
-                            <a href="#"><i class="fa fa-user fa-fw"></i>Faculty<span class="fa arrow"></span></a>
+                            <a href="#"><i class="fa fa-user fa-fw"></i>Doenças<span class="fa arrow"></span></a>
                             <ul class="nav nav-second-level">
                                 <li>
-                                    <a href="dashboard.php?info=add_faculty"><i class="fa fa-plus fa-fw"></i> Add Faculty</a>
+                                    <a href="dashboard.php?info=add_faculty"><i class="fa fa-plus fa-fw"></i> Add Doença</a>
                                 </li>
 								 <li>
-                                    <a href="dashboard.php?info=show_faculty"><i class="fa fa-eye"></i> Manage faculty</a>
+                                    <a href="dashboard.php?info=show_faculty"><i class="fa fa-eye"></i> Listar Doença</a>
                                 </li>                           
 							</ul>
                             <!-- /.nav-second-level -->
@@ -103,11 +103,11 @@ include('../dbconfig.php');
                         
 						
 						<li>
-                            <a href="#"><i class="fa fa-user fa-fw"></i>Student<span class="fa arrow"></span></a>
+                            <a href="#"><i class="fa fa-user fa-fw"></i>Paciente<span class="fa arrow"></span></a>
                             <ul class="nav nav-second-level">
                                 
 								 <li>
-                                    <a href="dashboard.php?info=display_student"><i class="fa fa-eye"></i> Manage Student</a>
+                                    <a href="dashboard.php?info=display_student"><i class="fa fa-eye"></i> Listar Estudantes</a>
                                 </li> 
 							             
 							</ul>
@@ -117,11 +117,11 @@ include('../dbconfig.php');
 		
 		<!-- feedback-->
 		<li>
-         <a href="#"><i class="fa fa-user fa-book"></i>Feedback<span class="fa arrow"></span></a>
+         <a href="#"><i class="fa fa-user fa-book"></i>Feedback's<span class="fa arrow"></span></a>
            <ul class="nav nav-second-level">
                              
-<li><a href="dashboard.php?info=feedback"><i class="fa fa-eye"></i> feedback</a></li>
-<li><a href="dashboard.php?info=feedback_average"><i class="fa fa-eye"></i> feedback Average</a></li>
+<li><a href="dashboard.php?info=feedback"><i class="fa fa-eye"></i> Feedback</a></li>
+<li><a href="dashboard.php?info=feedback_average"><i class="fa fa-eye"></i>Gráfico Feedback</a></li>
 	 
 							             
 							</ul>
@@ -132,7 +132,7 @@ include('../dbconfig.php');
 						
 						
 		<li>
-			<a href="dashboard.php?info=contact"><i class="fa fa-eye"></i> Contact us</a>
+			<a href="dashboard.php?info=contact"><i class="fa fa-eye"></i> Contato</a>
 		</li>
 			   
 				   
