@@ -13,7 +13,7 @@ $que=mysqli_query($conn,"select user and pass from admin where user='$email' and
 			}
 		else
 			{
-				$err="<font color='red'>Wrong Email or Password !</font>";
+				$err="<font color='red'>Login Inválido</font>";
 			}
 	}
 ?>
@@ -29,7 +29,7 @@ $que=mysqli_query($conn,"select user and pass from admin where user='$email' and
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Admin !</title>
+    <title>Modula Dor | Feedback | Médico</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="../css/bootstrap.min.css" rel="stylesheet">
@@ -59,7 +59,7 @@ $que=mysqli_query($conn,"select user and pass from admin where user='$email' and
             <div class="col-md-4 col-md-offset-4">
                 <div class="login-panel panel panel-default">
                     <div class="panel-heading">
-                        <h3 class="panel-title">Please Sign In</h3>
+                        <h3 class="panel-title">Login</h3>
                     </div>
                     <div class="panel-body">
                         <form method="post">
@@ -68,14 +68,17 @@ $que=mysqli_query($conn,"select user and pass from admin where user='$email' and
                                     <input class="form-control" name="email" type="email" autofocus required placeholder="E-mail">
                                 </div>
                                 <div class="form-group">
-                                    <input class="form-control" placeholder="Password" name="pass" type="password" required>
+                                    <input class="form-control" placeholder="Senha" name="pass" type="password" required>
                                 </div>
                                 
                                 
 								<div class="form-group">
                                     <input name="login" type="submit" value="Login" class="btn btn-lg btn-success btn-block">
                                 </div>
-								
+								<div class="form-group">
+                                    <input value="voltar" type="button" onClick="history.go(-1)" class="btn btn-lg">
+                                </div>
+
 								<div class="form-group">
                                     <label>
                                         <?php echo @$err;?>

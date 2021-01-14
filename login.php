@@ -38,7 +38,7 @@ $err="<font color='red'>Login Inválido</font>";
 <form method="post">
 	<div class="row">
 		<div class="col-sm-4"></div>
-		<div class="col-sm-4"><h2>Formulário de login</h2></div>
+		<div class="col-sm-4"><h2>Login Paciente</h2></div>
 	</div>
 	
 	<div class="row">

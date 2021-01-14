@@ -5,7 +5,7 @@ if(isset($save))
 
 	if($e=="" || $p=="")
 	{
-	$err="<font color='red'>fill all the fileds first</font>";	
+	$err="<font color='red'>Insira um login</font>";	
 	}
 	else
 	{
@@ -23,7 +23,7 @@ header('location:faculty');
 else
 {
 
-$err="<font color='red'>Invalid login details</font>";
+$err="<font color='red'>Login inválido</font>";
 
 }
 }

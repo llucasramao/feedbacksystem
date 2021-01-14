@@ -25,25 +25,25 @@ echo "<h2 style='color:green'>Thank you </h2>";
 ?>
 <form method="post">
 <fieldset>
-<center><u>Student's FeedBack Form</u></center><br>
+<center><u>Formulário de Feedback Modula Dor</u></center><br>
  
 <fieldset>
 
 
 
-<h3>Please give your answer about the following question by circling the given grade on the scale:</h3>
+<h3>Preencha o fomlário avaliando a questão em: </h3>
 
 
-<button type="button" style="font-size:7pt;color:white;background-color:green;border:2px solid #336600;padding:3px">Strongly Agree 5</button>
-<button type="button" style="font-size:7pt;color:white;background-color:Brown;border:2px solid #336600;padding:3px">Agree 4</button>
-<button type="button" style="font-size:7pt;color:white;background-color:blue;border:2px solid #336600;padding:3px">Neutral 3</button>
-<button type="button" style="font-size:7pt;color:white;background-color:Black;border:2px solid #336600;padding:3px"> Disagree 2</button>
-<button type="button" style="font-size:7pt;color:white;background-color:red;border:2px solid #336600;padding:3px">Strongly Disagree 1</button><br>
+<button type="button" style="font-size:7pt;color:white;background-color:green;border:2px solid ##00FF01;padding:3px">Nota 1</button>
+<button type="button" style="font-size:7pt;color:white;background-color:Brown;border:2px solid ##00FFFF;padding:3px">Nota 2</button>
+<button type="button" style="font-size:7pt;color:white;background-color:blue;border:2px solid ##FFFF00;padding:3px">Nota 3</button>
+<button type="button" style="font-size:7pt;color:white;background-color:Black;border:2px solid ##FF6600;padding:3px">Nota 4</button>
+<button type="button" style="font-size:7pt;color:white;background-color:red;border:2px solid ##FE0000;padding:3px">Nota 5</button><br>
 
 <table class="table table-bordered" style="margin-top:50px">
 <tr>
 
-<th> Select Faculty :</th>
+<th> Tipo de atendimento: </th>
 <td>
 <select name="faculty" class="form-control">
 	<?php

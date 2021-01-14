@@ -52,7 +52,7 @@ $err="<font color='blue'><h3 align='center'>Usuário Registrado!<h3></font>";
 		<div class="col-sm-8">
 		<form method="post" enctype="multipart/form-data">
 		<table class="table table-bordered" style="margin-bottom:50px">
-	<caption><h2 align="center">Registration Form</h2></caption>
+	<caption><h2 align="center">Novo Usuário</h2></caption>
 	<Tr>
 		<Td colspan="2"><?php echo @$err;?></Td>
 	</Tr>
@@ -77,104 +77,88 @@ $err="<font color='blue'><h3 align='center'>Usuário Registrado!<h3></font>";
 				</tr>
 				
 				<tr>
-					<td>Select Your Programme</td>
+					<td>Tipo de atendimento</td>
 					<Td><select name="pro" class="form-control" required>
 					
-					<option>BCA</option>
-					<option>MCA</option>
-					<option>B.Tech</option>
-					<option>M.Tech</option>
+					<option>Enxaqueca</option>
+					<option>Dor2</option>
 					</select>
 					</td>
 				</tr>
 				
 				<tr>
-					<td>Select Your Semester</td>
+					<td>Seleção 2</td>
 					<Td><select name="sem" class="form-control" required>
 					
-					<option>i</option>
-					<option>ii</option>
-					<option>iii</option>
-					<option>iv</option>
-					<option>v</option>
-					<option>vi</option>
-					<option>vii</option>
-					<option>viii</option>
+					<option>opção2</option>
+					<option>opção2</option>
 					</select>
 					</td>
 				</tr>
 				
 				<tr>
-					<td>Select Your Gender</td>
+					<td>Sexo</td>
 					<Td>
-				Male<input type="radio" name="gen" value="m"/>
-				Female<input type="radio" name="gen" value="f"/>	
+				Masculino <input type="radio" name="gen" value="m"/>
+				  Feminino <input type="radio" name="gen" value="f"/>	
 					</td>
 				</tr>
 				
 				<tr>
-					<td>Choose Your hobbies</td>
+					<td>Caixa</td>
 					<Td>
-					Reading<input value="reading" type="checkbox" name="hob[]"/>
-					Singing<input value="singin" type="checkbox" name="hob[]"/>
-					
-					Playing<input value="playing" type="checkbox" name="hob[]"/>
+					op1<input value="reading" type="checkbox" name="hob[]"/>
+					op2<input value="singin" type="checkbox" name="hob[]"/>
+					op3<input value="playing" type="checkbox" name="hob[]"/>
 					</td>
 				</tr>
 				
 				
 				<tr>
-					<td>Upload  Your Image </td>
+					<td>Foto de pefil</td>
 					<Td><input type="file" name="img" class="form-control" required/></td>
 				</tr>
 				
 				<tr>
-					<td>Enter Your DOB</td>
+					<td>Data de Nascimento</td>
 					<Td>
-					<select style="width:100px;float:left" name="yy" class="form-control" required>
-					<option value="">Year</option>
-					<?php 
-					for($i=1950;$i<=2016;$i++)
-					{
-					echo "<option>".$i."</option>";
-					}					
-					?>
-					
-					</select>
-					
-					<select style="width:100px;float:left" name="mm" class="form-control" required>
-					<option value="">Month</option>
-					<?php 
-					for($i=1;$i<=12;$i++)
-					{
-					echo "<option>".$i."</option>";
-					}					
-					?>
-					
-					</select>
-					
- 					
+	
 					<select style="width:100px;float:left" name="dd" class="form-control" required>
-					<option value="">Date</option>
+					<option value="">Dia</option>
 					<?php 
 					for($i=1;$i<=31;$i++)
 					{
 					echo "<option>".$i."</option>";
 					}					
 					?>
-					
+					</select>
+
+					<select style="width:100px;float:left" name="mm" class="form-control" required>
+					<option value="">Mês</option>
+					<?php 
+					for($i=1;$i<=12;$i++)
+					{
+					echo "<option>".$i."</option>";
+					}					
+					?>
+					</select>
+
+					<select style="width:100px;float:left" name="yy" class="form-control" required>
+					<option value="">Ano</option>
+					<?php 
+					for($i=1900;$i<=2021;$i++)
+					{
+					echo "<option>".$i."</option>";
+					}					
+					?>
 					</select>
 					
 					</td>
 				</tr>
-				
-				<tr>
-					
-					
+				<tr>					
 <Td colspan="2" align="center">
-<input type="submit" value="Save" class="btn btn-info" name="save"/>
-<input type="reset" value="Reset" class="btn btn-info"/>
-				
+<input type="submit" value="Salvar" class="btn btn-info" name="save"/>
+<input type="reset" value="Apagar" class="btn btn-info"/>				
 					</td>
 				</tr>
 			</table>
