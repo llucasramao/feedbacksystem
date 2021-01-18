@@ -49,11 +49,8 @@ session_start();
           <li><a href="index.php?info=login">Paciente</a></li>
           <li><a href="admin">Médico</a></li> 
         </ul>
-      </li> 
-	 <li>
-                        <a style="color:#FFFFFF" href="index.php?info=contact"><i class="fab fa-bandcamp"></i>Sujestão</a>
-                    </li>
-                </ul>
+      </li>
+        </ul>
             </div>
             <!-- /.navbar-collapse -->
         </div>
