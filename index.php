@@ -39,9 +39,9 @@ session_start();
                         <a style="color:#FFFFFF" href="index.php"><i class="fa fa-home fa-fw"></i>Inicio</a>
                     </li>
 					<li style="color:#FFFFFF">
-                        <a style="color:#FFFFFF" href="http://modulador.com.br/" target="_blank"><i class="fa fa-globe fa-fw"></i>Blog</a>
+                        <a style="color:#FFFFFF" href="https://clinicamodulador.com/" target="_blank"><i class="fa fa-globe fa-fw"></i>Blog</a>
                     </li>
-					<li><a style="color:#FFFFFF" href="index.php?info=registration"><i class="fa fa-sign-out fa-fw"></i>Registro</a></li>						
+					<li><a style="color:#FFFFFF" href="index.php?info=registro"><i class="fa fa-sign-out fa-fw"></i>Registro</a></li>						
 	<li class="dropdown">
         <a style="color:#FFFFFF" href="#" class="dropdown-toggle" data-toggle="dropdown" href="#"><i class="fa fa-sign-in fa-fw"></i>Login
         <span class="caret"></span></a>
@@ -76,9 +76,9 @@ session_start();
 						 {
 						 include('faculty_login.php');
 						 }
-						 else if($info=="registration")
+						 else if($info=="registro")
 						 {
-						 	include('registration.php');
+						 	include('registro.php');
 						 }
 					}
 					else

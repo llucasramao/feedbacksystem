@@ -20,30 +20,26 @@ $dob=$yy."-".$mm."-".$dd;
 $hob=implode(",",$hob);
 
 //image
-$imageName=$_FILES['img']['name'];
-
+//$imageName=$_FILES['img']['name'];
+//'$imageName'
 
 //encrypt your password
 $pass=md5($p);
 
 
-$query="insert into user values('','$n','$e','$pass','$mob','$pro','$sem','$gen','$hob','$imageName','$dob',now())";
+$query="insert into user values('','$n','$e','$pass','$mob','$pro','$sem','$gen','$hob',,'$dob',now())";
 mysqli_query($conn,$query);
 
 //upload image
 
-mkdir("images/$e");
-move_uploaded_file($_FILES['img']['tmp_name'],"images/$e/".$_FILES['img']['name']);
+//mkdir("images/$e");
+//move_uploaded_file($_FILES['img']['tmp_name'],"images/$e/".$_FILES['img']['name']);
 
 
 $err="<font color='blue'><h3 align='center'>Usuário Registrado!<h3></font>";
 
 }
 }
-
-
-
-
 ?>
 
 
@@ -87,38 +83,36 @@ $err="<font color='blue'><h3 align='center'>Usuário Registrado!<h3></font>";
 				</tr>
 				
 				<tr>
-					<td>Seleção 2</td>
+					<td>Médico</td>
 					<Td><select name="sem" class="form-control" required>
 					
-					<option>opção2</option>
-					<option>opção2</option>
+					<option>Márcio Siega</option>
+					<option>Médico 2</option>
 					</select>
 					</td>
 				</tr>
-				
 				<tr>
 					<td>Sexo</td>
 					<Td>
-				Masculino <input type="radio" name="gen" value="m"/>
+				  Masculino <input type="radio" name="gen" value="m"/>
 				  Feminino <input type="radio" name="gen" value="f"/>	
 					</td>
 				</tr>
 				
 				<tr>
-					<td>Caixa</td>
+					<td>Sintomas</td>
 					<Td>
-					op1<input value="reading" type="checkbox" name="hob[]"/>
-					op2<input value="singin" type="checkbox" name="hob[]"/>
-					op3<input value="playing" type="checkbox" name="hob[]"/>
+					 Dor de cabeça <input value="reading" type="checkbox" name="hob[]"/> 
+					 Dor2 <input value="singin" type="checkbox" name="hob[]"/>
+					 Dor3 <input value="playing" type="checkbox" name="hob[]"/>
 					</td>
 				</tr>
-				
-				
+<!--
 				<tr>
 					<td>Foto de pefil</td>
 					<Td><input type="file" name="img" class="form-control" required/></td>
 				</tr>
-				
+-->
 				<tr>
 					<td>Data de Nascimento</td>
 					<Td>

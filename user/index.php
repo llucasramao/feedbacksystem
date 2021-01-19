@@ -52,7 +52,7 @@ $users=mysqli_fetch_assoc($sql);
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" style="color:#FFFFFF" href="#">Bem Vindo <?php echo $users['name'];?></a>
+          <a class="navbar-brand" style="color:#FFFFFF" href="index.php">Bem Vindo - <?php echo $users['name'];?></a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
@@ -68,7 +68,7 @@ $users=mysqli_fetch_assoc($sql);
       <div class="row">
         <div class="col-sm-3 col-md-2 sidebar">
           <ul class="nav nav-sidebar">
-            <li class="active"><a href="index.php">Inicio <span class="sr-only">(current)</span></a></li>
+            <li class="active"><a href="index.php"> Painel <span class="sr-only">(current)</span></a></li>
 			<!-- find users' image if image not found then show dummy image -->
 			
 			<!-- check users profile image -->
@@ -84,8 +84,10 @@ $users=mysqli_fetch_assoc($sql);
 			else
 			{
 			?>
+      <!--
 			<li><a href="#"><img style="border-radius:50px" src="../images/<?php echo $_SESSION['user'];?>/<?php echo $row['image'];?>" width="100" height="100" alt="not found"/></a></li>
-			<?php 
+			-->
+      <?php 
 			}
 			?>
 			
@@ -128,7 +130,7 @@ $users=mysqli_fetch_assoc($sql);
 		  
 		  
 		  
-		  <h1 class="page-header">Inicio</h1>
+		  <h1 class="page-header">Feedback | Modula Dor</h1>
 		  
 		  
 		  
